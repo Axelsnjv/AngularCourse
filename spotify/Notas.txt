@@ -1,0 +1,47 @@
+Qué es Angular?
+    Provee un sistema que construye aplicaciones
+    Está escrita en TypeScript, tiene componentes, librerías optimizadas, suite de herramientas para provarla
+    
+Nuevo proyecto
+    ng new nombreProyecto --routing --style=css
+
+Lista comandos
+	https://codigoencasa.com/los-comandos-de-angular-mas-usados/
+	Diferente puerto
+		ng s --port=numPuerto
+	Red local
+		ng s --host=0.0.0.0 --port=numPuerto
+			Buscar ip local y entrar al local+puerto, y se accede desde otros dispositivos
+
+Interface
+	Plantilla de tipos de datos, y solo esos se pueden llenar
+
+? en interface
+	Dato se declara en la plantilla pero puede ser omiso en el llenado
+
+Dos o más tipos de datos
+	vendido: string | number = 1; // puede ser String o numero
+
+Assets
+	Recursos estáticos como: fuentes, img, iconos, style, etc.
+
+Brand color
+	Colores que el negocio dicta que tenga la app, se ponen en el root pq son los principales
+
+Scaffolding 
+	Estructura de ordenamiento de las carpetas
+
+Core
+	Estructuras que no se importan, como las interfaces
+
+Shared
+	Componentes compartidos, se usan más de una vez (header, footer, etc.). Es padre
+
+Crear un módulo
+	ng generate module nombreCarpeta/nombreModulo --routing
+	ó
+	ng g m nombreCarpeta/nombreModulo --routing
+
+Crear un componente 
+	ng g c nombreComponente
+
